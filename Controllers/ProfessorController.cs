@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace SmartSchool.Controllers
 {   
     [ApiController]
-    [Route("api")]
+    [Route("api/[controller]")]
     public class ProfessorController : ControllerBase
     {
         public ProfessorController() { }
